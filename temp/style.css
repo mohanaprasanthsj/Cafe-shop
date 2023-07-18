@@ -1,0 +1,303 @@
+body{
+    width: 100%;
+    height: auto;
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    font-family: 'Inconsolata', monospace;
+    background-color: #fdf5e6;
+}
+.menusection{
+    width: 100%;
+    background-color: white;
+    color: #ffffff ;
+    background-color: black;
+    position: fixed;
+}
+.menusection ul li{
+    display: inline-block;
+    width: 120px;
+    color: #ffffff;
+    background-color: black;
+    border: 1px solid black;
+    margin-left: 150px;
+    padding: 15px;
+    padding-left: 20px;
+}
+.menusection ul li:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.menusection ul li:nth-child(1){
+    position: relative;
+}
+.sub1 ul li{
+    display: block;
+    padding: 5px;
+    margin-left: inherit;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.sub1 ul{
+    padding-left: inherit;
+    padding-top: 10px;
+}
+.sub1{
+    position: absolute;
+    display: none;
+    margin-left: 5px;
+    padding-top: 10px;
+}
+.menusection ul li:nth-child(1):hover .sub1{
+    display: block;
+}
+.menusection ul li:nth-child(2){
+    position: relative;
+}
+.sub2 ul li{
+    display: block;
+    width: 100px;
+    margin-left: inherit;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.sub2 ul{
+    padding-left: inherit;
+    margin-left: inherit;
+    padding-top: 10px;
+}
+.sub2{
+    position: absolute;
+    display: none;
+    margin-right: 150px;
+    padding-top: 10px;
+}
+.menusection ul li:nth-child(2):hover .sub2{
+    display: block;
+}
+.content{
+    background-image: url(./port.jpg);
+    background-size: cover;
+    height: 600px;
+    overflow: hidden;
+    width: 100%;
+}
+.content img{
+    overflow: hidden;
+    height: 600px;
+}
+.title1 h1{
+    text-align: center;
+    margin-top: 150px;
+    color: #ffffff;
+    font-size: 100px;
+}
+.title2{
+    float: left;
+    margin-top: 100px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 20px;
+    border: 1px solid black;
+    padding: 3px 5px;
+}
+.title3{
+    float: right;
+    margin-top: 100px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 15px;
+    margin-right: 20px;
+    border: 1px solid black;
+    padding: 3px 5px;
+}
+.aboutsec{
+    background-color: #fdf5e6;
+    margin-top: 50px;
+}
+.aboutsec h5{
+    display: inline;
+    text-align: center;
+    font-size: 18px;
+    background-color: black;
+    color:#ffffff;
+    border: 1px solid black;
+    margin-left: 600px;
+    padding: 3px 5px;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+.para1 p{
+    margin-left: 300px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 300px;
+}
+.para2 p{
+    margin-left: 300px;
+    font-size: 18px;
+    margin-right: 300px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.para3 p{
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 18px;
+    border: 1px solid gray;
+    padding: 10px 8px;
+    background-color: lightgray;
+    border-left: 6px solid darkgrey;
+}
+.imgsec img{
+    margin-left: 300px;
+    width: 750px;
+    filter: grayscale(50%);
+    filter: saturate(40%);
+    margin-bottom: 30px;
+    box-sizing: inherit;
+    overflow: hidden;
+}
+.para4 p{
+    margin-left: 300px;
+    font-size: 18px;
+}
+.para5 p{
+    margin-left: 300px;
+    font-size: 18px;
+}
+.menupart{
+    background-color: #fdf5e6;
+}
+.menupart h5{
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    color:#ffffff;
+    margin-left: 600px;
+    font-size: 18px;
+    border: 1px solid black;
+    padding: 3px 8px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.secbar{
+    border: 1px solid gray;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: auto;
+    font-size: 18px;
+}
+.eatsec a{
+    float: left;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 0;
+    border: 1px solid lightgray;
+    width: 330px;
+    padding: 5px 20px;
+    text-align: center;
+    background-color: gray;
+}
+.eatsec a:active{
+    background-color: gray;
+    color: #ffffff;
+ }
+.drinksec a{
+    float: left;
+    text-decoration: none;
+    color: black;
+    margin-left: 0px;
+    border: 1px solid lightgray;
+    width: 330px;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.drinksec a:active{
+    background-color: gray;
+    color: #ffffff;
+}
+.secbar h5{
+    margin-left: 5px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.secbar p{
+    color: grey;
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.flowimg img{
+    overflow: hidden;
+    width: 750px;
+    margin-left: 300px;
+    filter: grayscale(70%);
+    margin-bottom: 20px;
+}
+.locaca h5{
+    display: inline;
+    text-align: center;
+    font-size: 18px;
+    background-color: black;
+    color:#ffffff;
+    border: 1px solid black;
+    margin-left: 600px;
+    padding: 3px 5px;
+    margin-bottom: 50px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.locaca p{
+    margin-left: 300px;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.locaca img{
+    width: 750px;
+    margin-left: 300px;
+    filter: grayscale(70%);
+    
+}
+.contentca1 p{
+    font-size: 18px;
+    margin-right: 335px;
+    font-weight: normal;
+}
+.contentca2{
+    font-size: 18px;
+}
+.footersec input{
+    width: 750px;
+    margin-left: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.footersec button{
+    margin-left: 300px;
+    color: white;
+    background-color: #000000;
+    height: 50px;
+}
+.conc{
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+}
+.conc h5{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+}
